@@ -15,7 +15,7 @@ In this example, I use:
 + Gulp
 + Dynamic import
 
-Basically, Next.JS allow you to use `style-jsx` package to develop CSS, but in the production mode, html is not minified. So that, gulp allow you to bundle final all scss into css.
+Basically, Next.JS allow you to use `style-jsx` package to develop CSS, but in the production mode, html is not minified. I resolved it using `gulp` allow you to bundle final all scss into css & with postCSS to auto prefix the final css.
 
 ## Prefix Domain
 
@@ -23,13 +23,7 @@ go to `utils/constants` change prefix name whatever you want. In this demo, I ch
 
 http://localhost:3000/news
 
-Note: There is no offical way to configure `prefix` in `next.js`. Currently, this demo worked well in version `next@3.0.0-beta13`.
-
-## How to use
-
-Download the example [or clone the repo](https://github.com/zeit/next.js):
-
-Install it and run:
+Note: Currently, there is no offical way to configure `prefix` in `next.js`. This demo worked well in version `next@3.0.0-beta13`.
 
 # development
 
@@ -46,4 +40,7 @@ npm i
 npm run production
 ```
 
+# Reference
+
++ [https://github.com/zeit/next.js/](https://github.com/zeit/next.js/)
 
