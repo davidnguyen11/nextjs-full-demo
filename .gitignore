@@ -1,0 +1,9 @@
+# Don't check auto-generated stuff into git
+.next
+node_modules
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+*.map
+*.log
