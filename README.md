@@ -1,4 +1,4 @@
-# Fetching data with Material UI
+# Fetching data with Material UI & Dynamic Import
 
 This example allow you to fetch data from api get news from `techcrunch` using api service: [https://newsapi.org/](https://newsapi.org/). 
 
