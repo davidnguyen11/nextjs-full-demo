@@ -17,27 +17,51 @@ In this example, I use:
 
 Basically, Next.JS allow you to use `style-jsx` package to develop CSS, but in the production mode, html is not minified. I resolved it using `gulp` allow you to bundle final all scss into css & with postCSS to auto prefix the final css.
 
+You can visit here to know detail about problems that I met during development:
+
+[https://medium.com/@nndung179/next-js-at-chotot-ca9c1520f436](https://medium.com/@nndung179/next-js-at-chotot-ca9c1520f436)
+
 ## Prefix Domain
 
-go to `utils/constants` change prefix name whatever you want. In this demo, I choose `/news`. So I will visit by: 
+go to `utils/constants` change prefix name whatever you want. In this demo, I choose `/news`. Then just browse to: 
 
 http://localhost:3000/news
 
-Note: Currently, there is no offical way to configure `prefix` in `next.js`. This demo worked well in version `next@3.0.0-beta13`.
+Note: Currently, there is no offical way to configure `prefix` in `next.js`. This demo worked well in version:
++ next@3.0.0-beta13
++ next@3.0.0-beta14
 
 # development
 
+require
 ```bash
 npm i nodemon -g
-npm install
-npm run dev
+```
+
+npm
+```bash
+npm i
+npm start
+```
+
+yarn
+```bash
+yarn install
+yarn start
 ```
 
 # production
 
+npm
 ```bash
 npm i
 npm run production
+```
+
+yarn
+```bash
+yarn install
+yarn run production
 ```
 
 # Reference
