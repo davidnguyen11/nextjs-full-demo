@@ -27,9 +27,7 @@ go to `utils/constants` change prefix name whatever you want. In this demo, I ch
 
 http://localhost:3000/news
 
-Note: Currently, there is no offical way to configure `prefix` in `next.js`. This demo worked well in version:
-+ next@3.0.0-beta13
-+ next@3.0.0-beta14
+Note: Currently, there is no offical way to configure `prefix` in `next.js`. This demo worked well in next.js 3 beta version.
 
 # development
 
